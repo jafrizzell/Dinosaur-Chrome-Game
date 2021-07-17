@@ -1,0 +1,1 @@
+function rand(n,r){return Math.random()*(r-n)+n}
