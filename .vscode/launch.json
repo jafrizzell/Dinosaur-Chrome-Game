@@ -6,7 +6,7 @@
     "type": "pwa-node",
     "resolvedSoureMapLocations": [
         "${workplaceFolder}/**",
-        "!/node_modules?**"
+        "!**/node_modules?**"
     ],
     "configurations": [
         {
@@ -18,9 +18,5 @@
             "runtimeArgs": ["start:debug"],
             "port": 5858
         }
-
     ]
-
-
-
 }
