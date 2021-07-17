@@ -10,21 +10,21 @@
 
 			Making the canvas white will make our work space really obvious.
 		-->
-		<canvas id="game", width=90%, height=90%></canvas>
-
+			<h1>how</h1>
+			<canvas id="game", width=90%, height=90%></canvas>
+			<p class="controls">press space to start</p>
         <script src="helpers.js"></script>
         <script src="game-object.js"></script>
         <script src="cactus.js"></script>
         <script src="dinosaur.js"></script>
         <script src="background.js"></script>
         <script src="score.js"></script>
-        <script src="game.js"></script>
-		<script src="index.js"></script>
-		<script src="gifLoader.js"></script>
-        <script>
+        <script type="module" src="game.js"></script>
+		<script>src="https://github.com/CalebBabin/twitch-chat-emotes"</script>
+        <!-- <script>
         	new Game({
-        		el: document.getElementById("game")
+        		src: document.getElementById("./game.js")
         	});
-        </script>
+        </script> -->
 	</body>
 </html>
